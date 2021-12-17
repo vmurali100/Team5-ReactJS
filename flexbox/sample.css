@@ -1,0 +1,84 @@
+.container{
+    border:6px solid black;
+    /* 1 Display property */
+    display:flex;
+    display: inline-flex;
+    
+    /* 2.Flex Direction */
+    /* display:flex; */
+    /* flex-direction: row */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* 3.Flex wrap */
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* height: 400px; */
+    /* flex-wrap: wrap-reverse; */
+
+    /*4. Flex flow */
+    /* display: flex; */
+    /* flex-flow: row-reverse wrap; */
+    /* flex-flow: column-reverse wrap-reverse; */
+    /* height: 400px; */
+
+    /*5. Justify content  */
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    height: 800px;
+    /* justify-content: flex-end; */
+    justify-content: center;
+
+     /* 6.Align Items */
+     display: flex ;
+     height: 800px;
+     /* align-items: stretch; */
+     /* align-items: flex-end; */
+     align-items: baseline;
+     /* .item1
+         padding-bottem:3rem 
+     .item-2
+      padding-bottom: 5rem;
+      .item-3
+      font-size:3rem*/
+    
+      /* 7. Align content */
+   /* display: flex;
+   height: 800px;
+   flex-wrap: wrap;
+   align-content:flex-end ; */
+
+    /*8. flex Item-order  */
+/* display: flex;
+order: 2;
+order: 1; need to give to items*/
+
+/* Flex grow
+ flex-grow: 1; need to give to item */
+
+ /* Flex Shrink
+ it will get shrink (adjust) when we reduce the browser width 
+ if u dont want to get shrink in .flex-item give flex-shrink:0;
+ the shrink u can give it to individual items as-well*/
+
+ /* flex basis
+ to item flex-basis:200px; */
+
+ /* Align self
+ .container height:400px; to itm-1 align-self:flex-start */
+
+ /*Responsive navbar */
+ 
+
+
+     
+
+}
