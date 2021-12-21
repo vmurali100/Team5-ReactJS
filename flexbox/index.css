@@ -3,21 +3,23 @@ body{
 }
 .container{
     border:6px solid black;
-  /* display: flex; */
+  display: flex; 
+  flex-shrink:1;
 
 
 }
 .flex-item{
-    color: white;
+    color: rgb(204, 22, 22);
     font-size: 1.5rem;
     padding: 1rem;
     text-align: center;
+
 }
 .item-1{
     background-color: yellow;
-   
+    align-self:flex-start
 }
-.item-2{
+ .item-2{
     background-color: tomato;
    
 }
@@ -44,4 +46,4 @@ body{
 }
 .item-9{
     background-color: green;
-}
+} 

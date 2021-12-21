@@ -7,9 +7,9 @@ body{
     color: white;
     height: 100vh;
     text-align: center;
-    display: flex;
-    flex-direction:column ;
-}
+     display: flex;
+    flex-direction:column ; 
+} 
 .flex-header{
     background-color: blue;
     padding-top: 3rem;
